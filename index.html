@@ -12,13 +12,15 @@
     </head>
     <body>        
         <nav class="nav">
-            <h1 class="nav-title">Profile</h1>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#" class="active">My Profile</a></li>
-                <li><a href="#">Find Connections</a></li>
-                <li><button class="btn">Sign Out</button></li>
-            </ul>
+            <div class="nav-container">
+                <h1 class="nav-title">Profile</h1>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">My Profile</a></li>
+                    <li><a href="#">Find Connections</a></li>
+                    <li><button class="btn">Sign Out</button></li>
+                </ul>
+            </div>
         </nav>
         <div class="container">
             <main class="main">
@@ -66,8 +68,8 @@
                                 <h3 class="cr-nombre">Todd E</h3>
                             </div>
                             <div class="cr-ld-cg">
-                                <img class="cr-ld-ur-ad" src="./icons/accept-circle.png" alt="Accept symbol" />
-                                <img class="cr-ld-ur-ad" src="./icons/close-circle.png" alt="Reject symbol" />
+                                <img class="cr-ld-ur-ad" src="./icons/accept-circle.png" alt="Accept symbol" onclick="aReq(this)" />
+                                <img class="cr-ld-ur-ad" src="./icons/close-circle.png" alt="Reject symbol" onclick="cReq(this)" />
                             </div>
                         </div>
                         <div class="cr-list-deatils">
@@ -76,8 +78,8 @@
                                 <h3 class="cr-nombre">Phil K</h3>
                             </div>
                             <div class="cr-ld-cg">
-                                <img class="cr-ld-ur-ad" src="./icons/accept-circle.png" alt="Accept symbol" />
-                                <img class="cr-ld-ur-ad" src="./icons/close-circle.png" alt="Reject symbol" />
+                                <img class="cr-ld-ur-ad" src="./icons/accept-circle.png" alt="Accept symbol" onclick="aReq(this)" />
+                                <img class="cr-ld-ur-ad" src="./icons/close-circle.png" alt="Reject symbol" onclick="cReq(this)" />
                             </div>
                         </div>
                     </div>
